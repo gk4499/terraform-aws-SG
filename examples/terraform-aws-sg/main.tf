@@ -14,7 +14,7 @@ module "security_group" {
       managed_by  = "terraform"
     }
 
-    vpc_associations = []
+    vpc_associations = ["vpc-09ccdd60e81eefe29"]
 
     ingress = {
       https = {
