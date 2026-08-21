@@ -4,7 +4,7 @@ module "security_group" {
   security_group = {
     name        = "example-security-group"
     description = "Example Security Group created using the Terraform AWS Security Group module"
-    vpc_id      = "vpc-0123456789abcdef0"
+    vpc_id      = "vpc-015ee36fa7dc3cc18"
 
     revoke_rules_on_delete = false
 
