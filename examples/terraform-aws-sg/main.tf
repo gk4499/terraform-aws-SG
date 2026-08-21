@@ -1,5 +1,5 @@
 module "security_group" {
-    source = "../../modules/terraform-aws-sg"
+  source = "../../modules/terraform-aws-sg"
 
   security_group = {
     name        = "example-security-group"
